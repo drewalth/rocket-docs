@@ -1,0 +1,19 @@
+{
+  "name": "rocket-docs",
+  "version": "0.0.1",
+  "description": "rocket app documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "drew",
+    "email": "drew.althage@documoto.com"
+  },
+  "repository": "#0/rocket-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
