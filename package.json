@@ -1,0 +1,28 @@
+{
+  "name": "rocket-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewalth/rocket-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewalth/rocket-docs/issues"
+  },
+  "homepage": "https://github.com/drewalth/rocket-docs#readme",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.8.0",
+    "vuepress": "^1.8.0"
+  }
+}
